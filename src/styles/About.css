@@ -1,0 +1,32 @@
+.About {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 150px;
+    position: relative;
+    margin-top: 20vh;
+    margin-right: 80px;
+}
+
+.Restaurant-Image {
+    width: 300px;
+    height: 225px;
+    position: absolute;
+    top: 140px;
+    right: 250px;
+}
+
+.Owners-Image {
+    width: 300px;
+    height: 225px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.Little-Lemon {
+    color: #F4CE14;
+}
+
+.chigago {
+    color: #495E57;
+}

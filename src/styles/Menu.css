@@ -1,0 +1,104 @@
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 150px;
+    margin-right: 2px;
+    margin-top: 20vh;
+    gap: 5px;
+}
+
+
+.heading {
+    grid-column: span 2;
+    margin-left: 1vh;
+    font-family: 'karla', sans-serif;
+    font-weight: bold;
+    color: #333333;
+    font-size: 20px;
+
+}
+
+.menubutton button {
+    padding: 10px 20px; 
+    font-size: 18px; 
+    font-weight: medium; 
+    color: #333333; 
+    background-color: #F4CE14; 
+    border-radius: 10px; 
+    cursor: pointer;
+    font-family: 'Markazi Text', sans-serif;
+    margin-left: 165px;
+    margin-top: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    height: 515px;
+    width: 310px;
+    border-radius: 18px;
+    background-color: #edefee;
+    position: relative;
+}
+
+.dish-img {
+    height: 220px;
+    width: 310px;
+}
+
+.heading-1 {
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: medium;
+    font-size: 25px;
+    color: #333333;
+    position: absolute;
+    margin-left: 10px;
+    bottom: 228px;
+}
+
+.amount { 
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    color: #ee9972;
+    position: absolute;
+    left: 235px;
+    bottom: 225px;
+}
+
+.paragraph {
+        font-family: 'karla', sans-serif;
+        color: #495E57;
+        font-size: 14pt;
+        line-height: 1.5;
+        max-width: 65ch;
+        margin-left: 10px;
+        position: absolute;
+        bottom: 90px;
+}
+.paragraph1 {
+        font-family: 'karla', sans-serif;
+        color: #495E57;
+        font-size: 14pt;
+        line-height: 1.5;
+        max-width: 65ch;
+        margin-left: 10px;
+        position: absolute;
+        bottom: 65px;
+}
+
+.delivery {
+    font-family: 'karla', sans-serif;
+    color: #333333;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 2px;
+}
+
+
+.bell-logo {
+    position: absolute;
+    right: 110px;
+    bottom: 15px;
+}

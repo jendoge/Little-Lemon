@@ -1,0 +1,105 @@
+.Booking-Section { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+    background-color: #495E57;
+    color: whitesmoke;
+}
+
+.Reseravation-heading {
+    position: absolute;
+    bottom: 82%;
+    left: 45%;
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 28px;
+    color: #F4CE14;
+}
+
+.Left-Column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-family: 'karla', sans-serif;
+  color: whitesmoke;
+  font-size: 17px;
+}
+
+
+.Input {
+  width: 200px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+.Right-Column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-family: 'karla', sans-serif;
+  color: whitesmoke;
+  font-size: 17px;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.Three-Image-Section {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 25px;
+}
+ 
+.Three-Image {
+  height: 150px;
+  width: 185px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.Reserve-Button {
+  display: grid;
+  grid-template-columns: 350px 300px;
+  grid-template-areas: 
+  "Button Text";
+  margin-left: 31%;
+  margin-top: 30px;
+}
+.btn1 {
+  grid-area: Button;
+  margin-left: 15px;
+}
+.btn {
+    padding: 10px 20px; 
+    font-size: 18px; 
+    font-weight: bolder; 
+    color: #333333; 
+    background-color: #F4CE14; 
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Markazi Text', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.text {
+  grid-area: Text;
+  color: #495E57;
+}
+.btn:disabled {
+  opacity: 0.3;
+}
+
+.emptydiv {
+  background-color: #495E57;
+  color: #495E57;
+}
+

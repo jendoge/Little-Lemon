@@ -1,0 +1,238 @@
+.User-Form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 5px;
+    margin-top: 0.5vh;
+    background-color: #495E57;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    position: relative;
+    
+  }
+  
+  .label-Left {
+    display: block;
+    margin-bottom: 5px;
+    position: absolute;
+    right: 6%;
+    top: 23%;
+    font-family: 'karla', sans-serif;
+    color: whitesmoke;
+    font-size: 17px;
+  }
+  
+.Left-User-Input {
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333333;
+  }
+  
+.label-Right {
+    display: block;
+    margin-bottom: 5px;
+    position: absolute;
+    left: 6%;
+    top: 23%;
+    font-family: 'karla', sans-serif;
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.Right-User-Input {
+  position: absolute;
+  left: 40px;
+  bottom: 10px;
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333333;
+}
+
+.Text-label-Right {
+  display: block;
+  margin-bottom: 5px;
+  position: absolute;
+  left: 6%;
+  top: 10%;
+  font-family: 'karla', sans-serif;
+  color: whitesmoke;
+  font-size: 17px;
+}
+
+
+.Text-Area {
+  position: absolute;
+  left: 40px;
+  bottom: 10px;
+  width: 265px;
+  height: 110px;
+  top: 25%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333333;
+  padding: 10px;
+}
+
+.error-message-left {
+  position: relative;
+    color: red;
+    top: 95%;
+    left: 70%;
+}
+
+.error-message-left1 {
+    position: relative;
+    color: red;
+    top: 95%;
+    left: 75%;
+}
+
+.error-message-Right {
+    position: relative;
+    color: red;
+    top: 95%;
+    left: 7%;
+}
+
+ .User-Form .Reservation-Page {
+    display: grid;
+    grid-template-columns: repeat(2, 160px);
+    margin-left: 310px;
+  }
+
+  .Reservation-Page > div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+  }
+  
+  .Reservation-Page img {
+    margin-right: 10px;
+  }
+
+  .Reservation-Page .Outdoor {
+    grid-column: span 2;
+    margin-right: 25%;
+}
+
+  .Terms-Conditions {
+    margin-left: 26%;
+    font-family: 'karla', sans-serif;
+    color: whitesmoke;
+    font-size: 17px;
+  }
+
+.link {
+  color: whitesmoke;
+}
+
+.Reservation-Page .icon-color {
+  filter: invert(100%) brightness(80%);
+}
+
+  .Radio-Div {
+    background-color: #495E57;
+  }
+
+ .Submit-Button {
+  margin-top: 30px;
+  margin-left: 42%;
+}
+
+  .btn3 {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bolder; 
+    color: #333333;
+    background-color: #F4CE14; 
+    border-radius: 10px; 
+    cursor: pointer;
+    font-family: 'Markazi Text', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Submit-Button {
+  display: grid;
+  grid-template-areas: 
+  "Button Error";
+  grid-template-columns: 240px auto;
+  margin-bottom: 25px;
+}
+
+.btn5 {
+  grid-area: Button;
+}
+
+.error-message {
+  grid-area: Error;
+  color: red;
+  margin-top: 10px;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn7 {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: medium; 
+  color: #333333;
+  background-color: #F4CE14;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Markazi Text', sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.link-text {
+  font-family: 'karla', sans-serif;
+  color: whitesmoke;
+  font-size: 19px;
+}

@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh;
+    position: relative;
+}
+
+.logo {
+    width: 274px;
+    height: 74px;
+    margin-left: 110px;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+}
+
+.navlist ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+.navlist .link {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #333333;
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+}

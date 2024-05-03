@@ -1,0 +1,64 @@
+.herosection {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    background-color: #495E57;
+    margin-right: 0;
+}
+
+.title h1 {
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: medium;
+    font-size: 64px;
+    color: #F4CE14;
+    margin-top: 10px; 
+    margin-bottom: 5px;
+    margin-left: 150px;
+}
+
+.title h2 {
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+    margin-top: 0; 
+    margin-bottom: 5px;
+    margin-left: 150px;
+}
+
+.title p {
+    display: inline-block;
+    font-family: 'karla', sans-serif;
+    font-weight: medium;
+    font-size: 18px;
+    color: whitesmoke;
+    margin-top: 20px; 
+    margin-bottom: 5px;
+    margin-left: 150px;
+    padding-right: 280px;
+}
+
+.btn {
+    padding: 10px 20px; 
+    font-size: 18px; 
+    font-weight: medium; 
+    color: #333333; 
+    background-color: #F4CE14; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    font-family: 'Markazi Text', sans-serif;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-top: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.heroimage img {
+    position: absolute;
+    margin-top: 5px;
+    width: 340px;
+    height: 400px;
+    margin-left: 127px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
